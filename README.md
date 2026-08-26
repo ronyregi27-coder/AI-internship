@@ -1,3 +1,21 @@
-# Netflix EDA
+# Traffic Monitoring System
 
-This project is an Exploratory Data Analysis (EDA) of the Netflix titles dataset. It uses Python, Pandas, NumPy, and Matplotlib to explore the dataset, handle missing values, analyze movies and TV shows, and create graphs to understand different patterns in Netflix content.
+A simple YOLO-based traffic monitoring app with an NLP chatbot built using Streamlit.
+
+---
+
+## Features
+* **Home:** Project overview (`app.py`)
+* **Prediction:** YOLOv8 vehicle detection and counting for images/videos (`pages/prediction.py`)
+* **Chatbot:** Traffic rules and regulations assistant (`pages/chatbot.py`)
+
+---
+
+## Project Structure
+```text
+Traffic-Monitoring-System/
+├── app.py
+├── requirements.txt
+└── pages/
+    ├── prediction.py
+    └── chatbot.py
